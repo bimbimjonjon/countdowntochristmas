@@ -35,8 +35,10 @@ h1{
 .countdown-el span{
     font-size: 1.5rem;
 }
+
 @media only screen and (max-width: 600px) {
-    display : flex;
-    flex-direction : column;
+    .countdown-container {
+        display: flex;
+        flex-direction: column;
+    }
   }
-}
